@@ -1,0 +1,6 @@
+[submodule "hugo-theme-nightfall"]
+	path = hugo-theme-nightfall
+	url = https://github.com/LordMathis/hugo-theme-nightfall
+[submodule "themes/loveit"]
+	path = themes/loveit
+	url = https://github.com/dillonzq/LoveIt
