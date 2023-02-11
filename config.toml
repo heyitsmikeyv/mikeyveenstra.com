@@ -42,7 +42,22 @@ languageName = "English"
     name = "About"
     url = "/about/"
     title = ""
-
+  [[menu.main]]
+    weight = 4
+    identifier = "github"
+    pre = "<i class=\"fa-brands fa-github\"></i>"
+    post = ""
+    name = ""
+    url = "https://github.com/heyitsmikeyv"
+    title = "GitHub"
+  [[menu.main]]
+    weight = 5
+    identifier = "linkedin"
+    pre = "<i class=\"fa-brands fa-linkedin\"></i>"
+    post = ""
+    name = ""
+    url = "https://linkedin.com/in/heyitsmikeyv"
+    title = "LinkedIn"
 # Markup related configuration in Hugo
 [markup]
   # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
@@ -50,6 +65,8 @@ languageName = "English"
     # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
     noClasses = false
 
+[outputs]
+    home = ["HTML", "JSON"]
 
 [params]
   # site default theme ["auto", "light", "dark"]
@@ -57,7 +74,7 @@ languageName = "English"
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
-  gitRepo = ""
+  gitRepo = "v"
   # which hash function used for SRI, when empty, no SRI is used
   # ["sha256", "sha384", "sha512", "md5"]
   # 哪种哈希函数用来 SRI, 为空时表示不使用 SRI
@@ -181,7 +198,7 @@ languageName = "English"
   # Search config
   # 搜索配置
   [params.search]
-    enable = false
+    enable = true
     # type of search engine ["lunr", "algolia"]
     # 搜索引擎的类型 ["lunr", "algolia"]
     type = "lunr"
@@ -249,8 +266,8 @@ languageName = "English"
   # Social config in home page
   # 主页的社交信息设置
   [params.social]
-    GitHub = ""
-    Linkedin = ""
+    GitHub = "heyitsmikeyv"
+    Linkedin = "heyitsmikeyv"
     Twitter = ""
     Instagram = ""
     Facebook = ""
