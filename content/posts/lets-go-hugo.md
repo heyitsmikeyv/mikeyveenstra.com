@@ -4,6 +4,7 @@ date: 2023-02-11T00:47:07-05:00
 draft: false
 categories:
     - Blog
+toc: false
 ---
 
 I've realized maintaining a whole CMS is massive overkill for a site I don't update much. I heard good things about [Hugo](https://gohugo.io/) as a static site generator and decided to spend a couple evenings fiddling with it. 
