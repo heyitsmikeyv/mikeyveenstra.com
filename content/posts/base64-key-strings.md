@@ -19,7 +19,7 @@ That being said, my world of interpreted web-focused languages like PHP and Java
 
 One reason (among several) that I qualify the previous statement with “fairly likely” is because the individuals developing web-based infections are turning, more and more commonly, to obfuscating their code. There are a plethora of methods to accomplishing this, the end result simply being code that a human couldn’t be expected to read.
 
-The most common technique used in PHP-based malware is to base64-encode the intended payload, then direct the parser to decode and evaluate the string. Let’s look at a super-basic example of what I’m talking about before we move on to the meat and potatoes of this report.
+The most common technique used in PHP-based malware is to [base64-encode](https://en.wikipedia.org/wiki/Base64) the intended payload, then direct the parser to decode and evaluate the string. Let’s look at a super-basic example of what I’m talking about before we move on to the meat and potatoes of this report.
 
 ## The (Really, Really Basic) Scenario
 
