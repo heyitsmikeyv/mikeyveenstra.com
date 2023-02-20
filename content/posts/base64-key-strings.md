@@ -8,7 +8,7 @@ categories:
     - Guides
 ---
 
-If you’re well-versed in concepts like base64-encoding, code obfuscation, and malware detection, you’re free to skip down to the good part (literally the section title “The Good Part”). The short version is: You can perform searches for plaintext strings encoded in base64. I’m personally very excited about this.
+If you’re well-versed in concepts like base64-encoding, code obfuscation, and malware detection, you’re free to skip down to the good part (literally the section title “The Good Part”). The short version is: You can perform searches for plaintext strings encoded in base64. I’m excited about this.
 <!--more-->
 
 For the less-experienced, or the more avid readers of the previous category, please read on.

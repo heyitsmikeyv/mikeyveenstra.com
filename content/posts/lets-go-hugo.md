@@ -7,7 +7,7 @@ categories:
 toc: false
 ---
 
-I've realized maintaining a whole CMS is massive overkill for a site I don't update much. I heard good things about [Hugo](https://gohugo.io/) as a static site generator and decided to spend a couple evenings fiddling with it. 
+I've realized maintaining a whole CMS is massive overkill for a site I don't update much. I heard good things about [Hugo](https://gohugo.io/) as a static site generator and decided to spend a couple evenings fiddling with it.<!--more-->
 
 So far, I'm a fan! I like writing in Markdown, and not needing to run a database in the backend is A-OK with me. 
 
